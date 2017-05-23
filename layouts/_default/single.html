@@ -7,9 +7,8 @@
 <div class="content">
   {{ if isset .Params "toc" }}
   {{ if .Params.toc }}
-    <p>
-      {{ .TableOfContents }}
-    </p>
+    {{ .TableOfContents }}
+    <hr>
   {{ end }}
   {{ end }}
   {{ .Content }}
