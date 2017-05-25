@@ -2,15 +2,15 @@
   font-family: "Roboto", Helvetica, Arial, sans-serif
 }
 
-a {
+a:not(.pure-button) {
   color: #3b8bba;
   text-decoration: none;
 }
-a:hover,
-a:focus {
+a:not(.pure-button):hover,
+a:not(.pure-button):focus {
   text-decoration: underline;
 }
-a:visited {
+a:not(.pure-button):visited {
   color: #265778;
 }
 
